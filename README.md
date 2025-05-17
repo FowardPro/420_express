@@ -20,3 +20,6 @@ Lucide Icons & React-Icons
 Mobile-First Responsive Design
 
 Visual fidelity matching modern delivery apps
+
+📄 License
+This project is licensed....
