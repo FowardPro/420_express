@@ -39,7 +39,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Legal */}
         <div className={styles.column}>
           <h4 className={styles.heading}>Legal</h4>
           <ul className={styles.links}>
