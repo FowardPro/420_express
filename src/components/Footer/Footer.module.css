@@ -1,0 +1,120 @@
+.footer {
+  background-color: #0e1611;
+  color: #e5e7eb;
+  padding: 3rem 6rem;
+  border-top: 1px solid #1a2b21;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  min-width: 220px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.logoIcon {
+  width: 20px;
+  height: 20px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.65rem;
+  color: white;
+}
+
+.logoText {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.description {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.social {
+  display: flex;
+  gap: 0.75rem;
+  color: #cbd5e1;
+}
+
+.heading {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #f8fafc;
+  text-transform: uppercase;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links li {
+  margin-bottom: 0.5rem;
+}
+
+.links a {
+  color: #94a3b8;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.links a:hover {
+  color: #22c55e;
+}
+
+.newsDescription {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.newsForm {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input {
+  flex: 1;
+  background-color: #1a2b21;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  color: white;
+  font-size: 0.85rem;
+  outline: none;
+}
+
+.submitBtn {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.submitBtn:hover {
+  background-color: #16a34a;
+}

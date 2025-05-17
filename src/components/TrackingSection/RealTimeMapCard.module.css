@@ -1,0 +1,42 @@
+.card {
+  background-color: rgba(14, 22, 17, 0.85);
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  color: #d1d5db;
+  max-width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.icon {
+  color: #22c55e;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.description {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.25rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #16a34a;
+}

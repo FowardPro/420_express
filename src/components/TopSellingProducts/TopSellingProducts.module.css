@@ -1,0 +1,160 @@
+.section {
+  background-color: #0e1611;
+  color: white;
+  padding: 4rem 6rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #1a2b21;
+  color: #a0f0c0;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.highlight {
+  color: #22c55e;
+}
+
+.subheading {
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-top: 0.25rem;
+}
+
+.viewAll {
+  color: #22c55e;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 2rem 0 2.5rem;
+}
+
+.filter,
+.activeFilter {
+  background-color: #1a2b21;
+  border: none;
+  color: #cbd5e1;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.activeFilter {
+  background-color: #22c55e;
+  color: white;
+}
+
+.products {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #121c14;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.saleBadge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  background-color: #22c55e;
+  color: white;
+  font-size: 0.65rem;
+  font-weight: bold;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.addIcon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #1f2f26;
+  border-radius: 50%;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.cardContent {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.meta {
+  font-size: 0.7rem;
+  color: #94a3b8;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.typePrice {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.price {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.cartBtn {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  background: none;
+  color: white;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.cartBtn:hover {
+  border-color: #22c55e;
+}

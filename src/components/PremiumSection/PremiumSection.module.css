@@ -1,0 +1,141 @@
+.section {
+  background-color: #0e1611;
+  color: white;
+  padding: 4rem 6rem;
+  text-align: center;
+}
+
+.tag {
+  background-color: #1a2b21;
+  color: #a0f0c0;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.highlight {
+  color: #22c55e;
+}
+
+.subheading {
+  color: #94a3b8;
+  font-size: 0.95rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #121c14;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.image {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.storeName {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.75rem 1rem;
+  font-weight: bold;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  width: 100%;
+  color: white;
+}
+
+.cardContent {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: #facc15;
+}
+
+.rating small {
+  color: #9ca3af;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.deal {
+  background-color: #1a2b21;
+  color: #a0f0c0;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.viewBtn {
+  background: none;
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+  cursor: pointer;
+  transition: border 0.2s;
+}
+
+.viewBtn:hover {
+  border-color: #22c55e;
+}
+
+.allStoresBtn {
+  margin-top: 1rem;
+  background: none;
+  border: 1px solid #444;
+  padding: 0.6rem 1.25rem;
+  border-radius: 999px;
+  color: white;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.allStoresBtn:hover {
+  background-color: #1a2b21;
+}

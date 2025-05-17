@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0e1611;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logoIcon {
+  width: 20px;
+  height: 20px;
+  background-color: #22c55e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.65rem;
+  color: white;
+}
+
+.logoText {
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  font-size: 0.85rem;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: #22c55e;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.85rem;
+}
+
+.icon {
+  cursor: pointer;
+  color: #d1d5db;
+  transition: color 0.2s ease;
+}
+
+.icon:hover {
+  color: #22c55e;
+}
+
+.signIn {
+  text-decoration: none;
+  color: #e5e7eb;
+  transition: color 0.2s ease;
+}
+
+.signIn:hover {
+  color: #22c55e;
+}
+
+.signUpBtn {
+  background-color: #22c55e;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  color: white;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.signUpBtn:hover {
+  background-color: #16a34a;
+}
